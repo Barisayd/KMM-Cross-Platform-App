@@ -1,0 +1,5 @@
+<resources>
+    <string name="title_scanner_fragment">QR Code Scanner</string>
+    <string name="send_request">Send request</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+</resources>
