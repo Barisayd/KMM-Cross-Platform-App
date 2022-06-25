@@ -10,6 +10,6 @@ The following functionalitites were implemented:
 - Parse the retrieved json object and display it in a scrollable list
 
 
-![App_1st_screen](https://user-images.githubusercontent.com/108173939/175787561-5fad08f0-f9e2-4f36-9aa4-0b455b7e2b85.png | width=100)>
-![Screenshot_20220625-210605](https://user-images.githubusercontent.com/108173939/175787573-db953203-e59a-42be-84f5-f29fabba47c1.jpg)
-![App_request_screen](https://user-images.githubusercontent.com/108173939/175787576-15d5900c-96d7-4dce-9e70-a914558c5e0e.png)
+![App_1st_screen](https://user-images.githubusercontent.com/108173939/175787860-fb1b2717-277e-4f67-a65f-d465fafae952.png)
+![App_request_screen](https://user-images.githubusercontent.com/108173939/175787863-de433c22-8ef3-4384-9c09-508fd943a8dc.png)
+![Screenshot_20220625-210605](https://user-images.githubusercontent.com/108173939/175787867-f25bf1aa-c972-4027-bf97-8c7049c7fc78.jpg)
