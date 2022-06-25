@@ -9,6 +9,6 @@ The following functionalitites were implemented:
 - API call to a website to retrieve a json-object
 - Parse the retrieved json object and display it in a scrollable list
 
-![App_1st_screen](https://user-images.githubusercontent.com/108173939/175787561-5fad08f0-f9e2-4f36-9aa4-0b455b7e2b85.png)
+![App_1st_screen](https://user-images.githubusercontent.com/108173939/175787561-5fad08f0-f9e2-4f36-9aa4-0b455b7e2b85.png = 250x250)
 ![Screenshot_20220625-210605](https://user-images.githubusercontent.com/108173939/175787573-db953203-e59a-42be-84f5-f29fabba47c1.jpg)
 ![App_request_screen](https://user-images.githubusercontent.com/108173939/175787576-15d5900c-96d7-4dce-9e70-a914558c5e0e.png)
