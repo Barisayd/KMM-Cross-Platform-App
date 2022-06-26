@@ -44,10 +44,16 @@ class MainActivity : AppCompatActivity() {
 
         val btn_scan: Button = findViewById(R.id.btn_scan)
         val btn_request: Button = findViewById(R.id.btn_request)
+        val btn_codes: Button = findViewById(R.id.btn_codes)
 
         btn_scan.setOnClickListener{
             val intent = Intent(this, ScanActivity::class.java)
             startActivity(intent)
+        }
+
+        btn_codes.setOnClickListener{
+            val intent_code = Intent(this, QRCodeListActivity::class.java)
+            startActivity(intent_code)
         }
 
 
