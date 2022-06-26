@@ -31,7 +31,8 @@ class Client {
 
 
     suspend fun getRequest(): String {
-        val response: HttpResponse = httpClient.get("https://gitcdn.link/cdn/KaterinaPetrova/greeting/7d47a42fc8d28820387ac7f4aaf36d69e434adc1/greetings.json")
+        val response: HttpResponse = httpClient.get("https://jsonplaceholder.typicode.com/posts")
+
 
 
 

@@ -13,17 +13,27 @@
         android:padding="30dp">
 
         <TextView
-            android:id="@+id/TextView2"
+            android:id="@+id/IdView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginTop="50dp"
-            android:text="language"
+            android:text="Id"
             android:textSize="12sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/greeting_view"
+            android:id="@+id/userIdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:text="userId"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titleView"
             android:layout_width="210dp"
             android:layout_height="33dp"
             android:layout_alignParentStart="true"
@@ -34,11 +44,11 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/lang_id"
+            android:id="@+id/bodyView"
             android:layout_width="80dp"
             android:layout_height="40dp"
-            android:layout_below="@+id/greeting_view"
-            android:layout_alignStart="@+id/greeting_view"
+            android:layout_below="@+id/titleView"
+            android:layout_alignStart="@+id/titleView"
             android:layout_marginStart="0dp"
             android:layout_marginTop="10dp"
             android:text="TextView"

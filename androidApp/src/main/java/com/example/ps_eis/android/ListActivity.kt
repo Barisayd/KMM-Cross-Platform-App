@@ -95,10 +95,18 @@ class ListActivity : AppCompatActivity() {
             //val formatData = JSONObject(listGreetings.getJSONObject(i).getString("string"))
             //val langData = JSONObject(listGreetings.getJSONObject(i).getString("lang"))
 
-            val formatData = jsonList.getString("string")
-            val langData = jsonList.getString("lang")
+            //val formatData = jsonList.getString("string")
+            //val langData = jsonList.getString("lang")
 
-            val item = DataClass(formatData.toString(), langData.toString())
+            val userId = jsonList.getString("userId")
+            val id = jsonList.getString("id")
+
+            val title = jsonList.getString("title")
+            val body = jsonList.getString("body")
+
+
+
+            val item = DataClass(userId.toString(), id.toString(), title.toString(), body.toString())
             content += item
 
         }

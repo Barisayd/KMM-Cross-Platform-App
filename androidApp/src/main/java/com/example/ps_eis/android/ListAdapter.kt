@@ -33,26 +33,38 @@ class ListAdapter(val dataClass: ArrayList<DataClass>): RecyclerView.Adapter<Lis
     override fun getItemCount() = dataClass.size
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val formatView: TextView = itemView.greeting_view
-        val langView: TextView = itemView.lang_id
+
+        val userId: TextView = itemView.userIdView
+        val id: TextView = itemView.IdView
+
+        val title: TextView = itemView.titleView
+        val body: TextView = itemView.bodyView
 
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val currentItem = dataClass[position]
 
-        holder.formatView.text =currentItem.format_view
-        holder.langView.text = currentItem.lang_view
+        holder.title.text = currentItem.title
+        holder.body.text = currentItem.body
+
+        holder.userId.text = currentItem.userId
+        holder.id.text = currentItem.id
     }
 }
 
 
 class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    val formatView: TextView = itemView.greeting_view
-    val langView: TextView = itemView.lang_id
+    val userId: TextView = itemView.userIdView
+    val id: TextView = itemView.IdView
+
+    val title: TextView = itemView.titleView
+    val body: TextView = itemView.bodyView
 
     fun bindView(dataClass: DataClass){
-        formatView.text = dataClass.format_view
-        langView.text = dataClass.lang_view
+        userId.text = dataClass.userId
+        id.text = dataClass.id
+        title.text = dataClass.title
+        body.text = dataClass.body
     }
 }
