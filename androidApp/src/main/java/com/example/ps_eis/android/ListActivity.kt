@@ -14,7 +14,7 @@ import kotlinx.coroutines.runBlocking
 import org.json.JSONArray
 import org.json.JSONObject
 
-
+//Class to create a list with the received JSON Response from the API Call
 class ListActivity : AppCompatActivity() {
 
     private val mainScope = MainScope()
@@ -39,10 +39,6 @@ class ListActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
 
         //val testView: TextView = findViewById(R.id.testView)
-
-
-
-
 
         var response = ""
         runBlocking {
